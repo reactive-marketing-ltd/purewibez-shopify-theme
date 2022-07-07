@@ -1,6 +1,5 @@
 class RotatingBanners extends HTMLElement {
   constructor() {
-    alert("hellow");
   } 
 }
 
