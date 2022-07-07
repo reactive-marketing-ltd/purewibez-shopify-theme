@@ -942,7 +942,8 @@
         "slide": {
           "name": "Slide",
           "settings": {
-            "image": "Cover Image"
+            "image": "Cover Image",
+            "product": "Choose Product"
           }
         }
       }
