@@ -937,6 +937,12 @@
       }
     },
     "rotating-banners": {
+      "name": "Rotating Banners",
+      "blocks": {
+        "slide": {
+          "name": "Slide"
+        }
+      }
     },
     "image-banner": {
       "name": "Image banner",
