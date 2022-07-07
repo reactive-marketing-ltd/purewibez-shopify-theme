@@ -936,6 +936,8 @@
         }
       }
     },
+    "rotating-banners": {
+    },
     "image-banner": {
       "name": "Image banner",
       "settings": {
