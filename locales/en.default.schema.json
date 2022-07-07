@@ -381,6 +381,12 @@
         "announcement": {
           "name": "Announcement",
           "settings": {
+            "address": {
+              "label": "Address"
+            },
+            "phone": {
+              "label": "Phone"
+            },
             "text": {
               "label": "Text"
             },
