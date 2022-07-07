@@ -1,6 +1,8 @@
 {{ 'section-rotating-banners.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'rotating-banners.js' | asset_url }}" defer="defer"></script>
+
 <div>
-    <div class="rotating-banners">
+    <rotating-banners class="rotating-banners">
         <div class="rotating-banners__container">
             {% for block in section.blocks %}
                 <div class="rotating-banners__item" {{ block.shopify_attributes }}>
@@ -15,7 +17,7 @@
                 </div>
             {% endfor %}
         </div>
-    </div>
+    </rotatin-banners>
 </div>
 {% schema %}
 
