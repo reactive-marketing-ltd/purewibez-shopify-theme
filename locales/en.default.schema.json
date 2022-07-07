@@ -940,7 +940,10 @@
       "name": "Rotating Banners",
       "blocks": {
         "slide": {
-          "name": "Slide"
+          "name": "Slide",
+          "settings": {
+            "image": "Cover Image"
+          }
         }
       }
     },
