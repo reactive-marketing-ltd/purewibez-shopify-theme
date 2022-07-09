@@ -2,8 +2,13 @@
   min-height:100vh;
 }
 
-.rotating-banners__items {
+.rotating-banners__item {
   display:flex;
   align-items: center;
+  height:100%;
+}
+
+.rotating-banners__item-content {
+  flex:1;
   height:100%;
 }
