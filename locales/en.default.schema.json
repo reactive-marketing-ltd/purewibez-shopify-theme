@@ -938,15 +938,13 @@
     },
     "rotating-banners": {
       "name": "Rotating Banners",
-      "settings": {
-        "product_background": "Product Background Color"
-      },
       "blocks": {
         "slide": {
           "name": "Slide",
           "settings": {
             "image": "Cover Image",
-            "product": "Choose Product"
+            "product": "Choose Product",
+            "product_background": "Product Background Color"
           }
         }
       }
