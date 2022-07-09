@@ -3,7 +3,7 @@
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
 <div>
-    <rotating-banners id="{{section.id}}" data-slides="{{ blocks.size }}" class="rotating-banners">
+    <rotating-banners id="{{section.id}}" data-slides="{{ blocks.length }}" class="rotating-banners">
         <div class="rotating-banners__container">
             <div class="rotating-banners__nav">
               <a href="#" class="rotating-banners__nav-up-arrow">
@@ -23,7 +23,7 @@
             {% for block in section.blocks %}
             {% assign _product = block.settings.product %}
             {% assign settings = block.settings %}
-            <div class="rotating-banners__item" {{ block.shopify_attributes }}>
+            <div id="rotating-banners__item#{{forloop.index}}" class="rotating-banners__item" {{ block.shopify_attributes }}>
               <div class="rotating-banners__item-title">
                 <h1 style="color:{{settings.product_title_color}}">{{_product.title}}</h1>
               </div>
