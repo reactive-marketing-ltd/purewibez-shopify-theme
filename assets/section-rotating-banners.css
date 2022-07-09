@@ -146,6 +146,7 @@
     overflow:auto;
   }
   .rotating-banners__item-product-container {
-      padding-right: 5rem;
+    padding-right: 5rem;
+    width:100%;
   }
 }
