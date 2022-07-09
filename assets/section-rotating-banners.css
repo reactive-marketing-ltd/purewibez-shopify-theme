@@ -43,3 +43,11 @@
   background-size:cover;
   background-repeat:no-repeat;
 }
+
+.rotating-banners__item-product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  
+}
