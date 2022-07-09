@@ -949,6 +949,9 @@
         },
         "autoplay": {
           "label": "Autoplay"
+        },
+        "dots": {
+          "label": "Display Dots"
         }
       },
       "blocks": {
