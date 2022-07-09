@@ -7,9 +7,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-            "product": "",
-            "product_title_color": "",
-            "product_background": "linear-gradient(133deg, rgba(250, 220, 54, 1) 11%, rgba(254, 98, 146, 1) 49%, rgba(250, 220, 54, 1) 87%)",
+            "product": "dummy-bracelet",
+            "product_title_color": "#ffffff",
+            "product_background": "radial-gradient(rgba(255, 251, 240, 1), rgba(252, 195, 179, 1) 99%)",
             "product_price_font_size": 18,
             "product_compare_at_price_font_size": 22,
             "product_description_color": ""
