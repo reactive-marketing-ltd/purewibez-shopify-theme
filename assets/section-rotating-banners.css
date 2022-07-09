@@ -43,7 +43,7 @@
 }
 
 .rotating-banners__item-media {
-  flex:1;
+  flex:1 !important;
 }
 
 .rotating-banners__item-content {
