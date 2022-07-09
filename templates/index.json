@@ -23,7 +23,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/slide-1-bg.png",
-            "product": "",
+            "product": "dummy-bracelet",
             "product_background": "radial-gradient(rgba(227, 224, 225, 1), rgba(180, 173, 174, 1) 99%)"
           }
         }
