@@ -1,5 +1,7 @@
 .rotating-banners__container {
-  min-height:100vh;
+  position: relative;
+  min-height: 80vh;
+  width: 100%;
 }
 
 .rotating-banners__item {
@@ -12,3 +14,5 @@
   flex:1;
   height:100%;
 }
+
+.ro
