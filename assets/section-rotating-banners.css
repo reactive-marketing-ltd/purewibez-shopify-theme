@@ -73,7 +73,7 @@
   transition: all var(--anim-duration);
 }
 
-.rotating-banners__item.active .rotating-banners__item-product-featured-image { {
+.rotating-banners__item.active .rotating-banners__item-product-featured-image { 
   transform: translateY(0px);
 }
 
