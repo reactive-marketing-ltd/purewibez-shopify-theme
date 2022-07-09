@@ -58,7 +58,7 @@
 
 .rotating-banners__nav {
   position: absolute;
-  right: 0;
+  right: 4rem;
   top: 4rem;
   bottom: 4rem;
   min-width: 4rem;
