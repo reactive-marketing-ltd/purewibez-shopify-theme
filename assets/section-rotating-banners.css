@@ -13,10 +13,12 @@
   width: 100%;
   z-index: 1;
   opacity: 0;
+  transition: all 0.2s;
 }
 
 .rotating-banners__item.active {
   opacity: 1;
+  transition: all 0.2s;
 }
 
 .rotating-banners__item-title {
