@@ -17,7 +17,7 @@
               </a>
               <div class="rotating-banners__nav-steps">
                 {% for block in section.blocks %}
-                  <div class="rotating-banners__nav-step">
+                  <div id="rotating-banners__nav-step-{{forloop.index}}" class="rotating-banners__nav-step">
                     {{forloop.index | add:1}}
                   </div>
                 {% endfor %}
