@@ -62,4 +62,5 @@
   top: 2rem;
   bottom: 2rem;
   min-width: 4rem;
+  z-index: 2;
 }
