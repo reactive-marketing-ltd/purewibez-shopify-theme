@@ -22,7 +22,8 @@
                             </div>
                             <div class="rotating-banners__item-product-price">
                               <span style="font-size:{{settings.product_price_font_size}}px">
-                              <s>{{_product.price | money}}</s>
+                                {{_product.price | money}}
+                              </span>
                             </div>
                           </div>
                         </div>
@@ -61,6 +62,11 @@
                     "type" : "color_background",
                     "id" : "product_background",
                     "label" : "t:sections.rotating-banners.blocks.slide.settings.product_background"
+            	},
+				{
+                    "type" : "number",
+                    "id" : "product_price_font_size",
+                    "label" : "t:sections.rotating-banners.blocks.slide.settings.product_price_font_size"
             	}
             ]
         }
