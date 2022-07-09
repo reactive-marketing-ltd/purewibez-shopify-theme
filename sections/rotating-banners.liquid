@@ -5,16 +5,17 @@
 <div>
     <rotating-banners class="rotating-banners">
         <div class="rotating-banners__container">
-          <div class="rotating-banners__nav">
-            <div class="rotating-banners__nav-up-arrow"></div>
-            <div class="rotating-banners__nav-steps">
-              {% for block in section.blocks %}
-            	<div class="rotating-banners__nav-step">
-                  {{forloop.index | add:1}}
-            	</div>
-              {% endfor %}
+            <div class="rotating-banners__nav">
+              <div class="rotating-banners__nav-up-arrow"></div>
+              <div class="rotating-banners__nav-steps">
+                {% for block in section.blocks %}
+                  <div class="rotating-banners__nav-step">
+                    {{forloop.index | add:1}}
+                  </div>
+                {% endfor %}
+              </div>
+              <div class="rotating-banners__nav-down-arrow"></div>
             </div>
-            <div class="rotating-banners__nav-down-arrow"></div>
             {% for block in section.blocks %}
             {% assign _product = block.settings.product %}
             {% assign settings = block.settings %}
