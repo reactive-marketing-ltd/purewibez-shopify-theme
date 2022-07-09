@@ -1,3 +1,9 @@
+{% style %}
+	:root {
+		--anim-duration: {{section.settings.duration | divided_by: 1000}}s
+	}
+{% endstyle %}
+
 {{ 'section-rotating-banners.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'rotating-banners.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
