@@ -65,14 +65,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>CHOOSE FROM OUR COLLECTIONS<\/p>",
+            "heading_size": "hxl"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>SPREAD POSITIVITY ALL THE WAY<\/p>"
           }
         }
       },
