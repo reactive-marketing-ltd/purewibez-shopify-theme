@@ -103,6 +103,9 @@
   border-right:1px solid rgba(0,0,0,0.2);
   margin:1rem 0;
   transition: all var(--anim-duration);
+  text-decoration: none;
+  color: #333;
+  text-shadow: black;
 }
 
 .rotating-banners__nav-step.active {
