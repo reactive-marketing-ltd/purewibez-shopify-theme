@@ -13,10 +13,10 @@ class RotatingBanners extends HTMLElement {
       this.querySelector(".rotating-banners__nav-up-arrow").addEventListener('click',this.onPrev.bind(this));
       this.querySelector(".rotating-banners__nav-down-arrow").addEventListener('click',this.onNext.bind(this));
       this.activate(0);
-      this.autoplay().bind(this);
+      this.handleAutoplay().bind(this);
     }
     
-    autoplay(){
+    handleAutoplay(){
       clearTimeout(this.tid);
       if(this.autoplay){
       	this.tid = setTimeout(()=>{this.onNext(null);},this.slideDuration);
@@ -24,13 +24,13 @@ class RotatingBanners extends HTMLElement {
     }
 	onNext(e) {
       this.current=this.current>=this.slides-1?0:this.current+1;
-      this.autoplay();
+      this.handleAutoplay();
       this.activate(this.current);
     }
 
     onPrev(e) {
       this.current=this.current<=0?this.slides-1:this.current-1;
-      this.autoplay();
+      this.handleAutoplay();
       this.activate(this.current);
     }
 	
