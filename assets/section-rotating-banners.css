@@ -79,10 +79,10 @@
 }
 
 @keyframes vert-anim {
-  0%{
+  from{
       transform: translateY(1000px);
   }
-  100%{
+  to{
     transform:  translateY(0px);
   }
 }
