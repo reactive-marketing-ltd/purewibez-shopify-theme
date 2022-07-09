@@ -1,16 +1,18 @@
 class RotatingBanners extends HTMLElement {
 	current = 0;
 	slides = 0;
+	slidDuration = 7000;
 	constructor() {
       super();
       console.log(this);
+      this.slideDuration = this.dataSet.duration;
       this.slides = this.querySelectorAll(".rotating-banners__item").length;
       this.querySelector(".rotating-banners__nav-up-arrow").addEventListener('click',this.onPrev.bind(this));
       this.querySelector(".rotating-banners__nav-down-arrow").addEventListener('click',this.onNext.bind(this));
       this.activate(0);
       setInterval(()=>{
                   this.onNext(null);
-    	},5000);
+    	},this.slideDuration);
     }
 
 	onNext(e) {
