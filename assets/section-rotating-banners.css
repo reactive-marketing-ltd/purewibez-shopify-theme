@@ -46,7 +46,7 @@
 
 .rotating-banners__item-product-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-end;
   justify-content: center;
   
