@@ -7,7 +7,7 @@ class RotatingBanners extends HTMLElement {
 
 	onNext(e) {
       this.current+=1;
-      console.log(this.current);
+      console.log(this);
     }
 
 }
