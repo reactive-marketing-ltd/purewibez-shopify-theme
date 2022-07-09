@@ -36,7 +36,9 @@ class RotatingBanners extends HTMLElement {
 	
 	activate(index) {
       this.querySelectorAll(".rotating-banners__item").forEach(ele=>ele.classList.remove("active"));
+      this.querySelectorAll(".rotating-banners__nav-step").forEach(ele=>ele.classList.remove("active"));
       this.querySelector("#rotating-banners__item_"+(index+1)).classList.add("active");
+      this.querySelector("#rotating-banners__nav-step-"+(index+1)).classList.add("active");
 	}
 
 }
