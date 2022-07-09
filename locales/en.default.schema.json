@@ -938,6 +938,12 @@
     },
     "rotating-banners": {
       "name": "Rotating Banners",
+      "settings": {
+        "duration": {
+          "label": "Slide Duration",
+          "description": "How long a slide should be visible for"
+        }
+      },
       "blocks": {
         "slide": {
           "name": "Slide",
