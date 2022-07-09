@@ -952,6 +952,9 @@
         },
         "dots": {
           "label": "Display Dots"
+        },
+        "nav": {
+          "label": "Display Nav"
         }
       },
       "blocks": {
