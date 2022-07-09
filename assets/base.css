@@ -78,6 +78,7 @@
   --color-button-text: var(--color-base-outline-button-labels);
   --color-button: var(--color-background);
   --alpha-button-background: 1;
+    border-radius: 100%;
 }
 
 .color-background-2 .button--secondary,
