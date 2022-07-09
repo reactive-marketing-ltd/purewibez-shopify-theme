@@ -165,5 +165,6 @@
   
   .rotating-banners__item-media-overlay{
     display: block;
+    width: 100%;
   }
 }
