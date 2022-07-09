@@ -11,6 +11,8 @@ class RotatingBanners extends HTMLElement {
       this.autoplay = this.dataset.autoplay==="true";
       this.slides = this.querySelectorAll(".rotating-banners__item").length;
       try{
+        const dots = this.querySelectorAll(".rotating-banners__nav-step");
+        dots && dots.length && dots.forEach((d,ind)=>d.addEventListener('click',()=>{this.activate(ind)}));
         const prevBtn = this.querySelector(".rotating-banners__nav-up-arrow");
         prevBtn && prevBtn.addEventListener('click',this.onPrev.bind(this));
         const nextBtn = this.querySelector(".rotating-banners__nav-down-arrow")
