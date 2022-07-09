@@ -121,4 +121,8 @@
     max-width:100%;
     letter-spacing: 0px;
   }
+  
+  .rotating-banners__item-product-featured-image {
+    width:300px;
+  }
 }
