@@ -12,11 +12,11 @@
     <rotating-banners id="{{section.id}}" data-autoplay="{{section.settings.autoplay}}"  data-duration="{{section.settings.duration}}" class="rotating-banners">
         <div class="rotating-banners__container">
             <div class="rotating-banners__nav">
-              {%- if section.settings.nav==true -%}
-              <a href="javascript:void(0)" class="rotating-banners__nav-up-arrow">
-                {% render 'icon-up-arrow' %}
-              </a>
-              {%- endif -%}
+              {% if section.settings.nav==true %}
+                <a href="javascript:void(0)" class="rotating-banners__nav-up-arrow">
+                  {% render 'icon-up-arrow' %}
+                </a>
+              {% endif %}
               <div class="rotating-banners__nav-steps">
                 {% for block in section.blocks %}
                   <div id="rotating-banners__nav-step-{{forloop.index}}" class="rotating-banners__nav-step">
@@ -24,11 +24,11 @@
                   </div>
                 {% endfor %}
               </div>
-              {%- if section.settings.nav==true -%}
-              <a href="javascript:void(0)" class="rotating-banners__nav-down-arrow">
-                {% render 'icon-down-arrow' %}
-              </a>
-              {%- endif -%}
+              {% if section.settings.nav==true %}
+                <a href="javascript:void(0)" class="rotating-banners__nav-down-arrow">
+                  {% render 'icon-down-arrow' %}
+                </a>
+              {% endif %}
             </div>
             {% for block in section.blocks %}
             {% assign _product = block.settings.product %}
