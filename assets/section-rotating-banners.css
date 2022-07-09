@@ -128,6 +128,7 @@
   
   .rotating-banners__item-content {
     flex-direction: column;
+    display:block;
   }
   
   .rotating-banners__item-media {
@@ -135,7 +136,5 @@
   }
   
   .rotating-banners__container {
-    min-height: auto;
-    overflow:visible;
   }
 }
