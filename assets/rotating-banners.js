@@ -1,5 +1,7 @@
 class RotatingBanners extends HTMLElement {
+  current = 0;
   constructor() {
+    
   } 
 }
 
