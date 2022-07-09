@@ -97,3 +97,7 @@
   justify-content: center;
   flex: 1;
 }
+
+.rotating-banners__nav-step {
+  opacity: 0.2;
+}
