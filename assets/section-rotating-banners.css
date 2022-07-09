@@ -69,12 +69,22 @@
 
 .rotating-banners__item-product-featured-image {
   text-align:center;
-  transform: translateY(1000px);
+  transform: translateY(-1000px);
   transition: all var(--anim-duration);
 }
 
-.rotating-banners__item.active .rotating-banners__item-product-featured-image { 
-  transform: translateY(0px);
+.rotating-banners__item.active .rotating-banners__item-product-featured-image {
+  animation-name: vert-anim;
+  animation-duration: var(--anim-duration);
+}
+
+@keyframes vert-anim {
+  0%:{
+      transform: translateY(1000px);
+  }
+  100%:{
+    transform:  translateY(0px);
+  }
 }
 
 .rotating-banners__nav {
