@@ -133,4 +133,8 @@
   .rotating-banners__item-media {
     min-height: 200px
   }
+  
+  .rotating-banners__container {
+    min-height:auto;
+  }
 }
