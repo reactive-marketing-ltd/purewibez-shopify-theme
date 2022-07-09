@@ -7,6 +7,7 @@ class RotatingBanners extends HTMLElement {
       this.slides = this.querySelectorAll(".rotating-banners__item").length;
       this.querySelector(".rotating-banners__nav-up-arrow").addEventListener('click',this.onPrev.bind(this));
       this.querySelector(".rotating-banners__nav-down-arrow").addEventListener('click',this.onNext.bind(this));
+      this.activate(0);
     }
 
 	onNext(e) {
