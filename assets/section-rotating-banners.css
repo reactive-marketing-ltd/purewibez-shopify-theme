@@ -109,4 +109,5 @@
   opacity:1;
   border-right:5px solid rgba(0,0,0,1);
   transition: all var(--anim-duration);
+  padding-right: 1rem;
 }
