@@ -10,8 +10,14 @@ class RotatingBanners extends HTMLElement {
       this.slideDuration = parseInt(this.dataset.duration);
       this.autoplay = this.dataset.autoplay==="true";
       this.slides = this.querySelectorAll(".rotating-banners__item").length;
-      this.querySelector(".rotating-banners__nav-up-arrow").addEventListener('click',this.onPrev.bind(this));
-      this.querySelector(".rotating-banners__nav-down-arrow").addEventListener('click',this.onNext.bind(this));
+      try{
+        const prevBtn = this.querySelector(".rotating-banners__nav-up-arrow");
+        prevBtn && prevBtn.addEventListener('click',this.onPrev.bind(this));
+        const nextBtn = this.querySelector(".rotating-banners__nav-down-arrow")
+        nextBtn && nextBtn.addEventListener('click',this.onNext.bind(this));
+      }catch(e){
+        console.error(e);
+      }
       this.activate(0);
       this.handleAutoplay.bind(this)();
     }
