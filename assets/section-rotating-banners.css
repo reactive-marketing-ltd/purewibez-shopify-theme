@@ -13,10 +13,14 @@
   width: 100%;
   z-index: 1;
 }
+
 .rotating-banners__item-title {
   position: absolute;
   left: 3rem;
   top: 3rem;
+}
+
+.rotating-banners__item-title h1 {
   font-weight: bold;
 }
 
