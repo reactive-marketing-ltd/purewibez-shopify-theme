@@ -32,9 +32,6 @@
   font-size:72px;
   margin:0 !important;
   letter-spacing: 20px;
-  max-width: 50%;
-  display: inline;
-  word-wrap: break-word;
 }
 
 .rotating-banners__item-content {
