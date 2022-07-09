@@ -137,6 +137,7 @@
   
   .rotating-banners__container {
     overflow:auto;
+    min-height:auto;
   }
   .rotating-banners__item-product-container {
     align-items: flex-start;
