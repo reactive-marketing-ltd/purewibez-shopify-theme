@@ -21,9 +21,25 @@
                               {{_product | image_url: width : 450 | image_tag}}
                             </div>
                             <div class="rotating-banners__item-product-price">
+                              {% if _product.compare_at_price != blank %}
                               <span style="font-size:{{settings.product_price_font_size}}px">
+                                <s>
                                 {{_product.price | money}}
+                                </s>
                               </span>
+                              <span style="font-size:{{settings.product_compare_at_price_font_size}}px">
+                                <s>
+                                {{_product.compare_at_price | money}}
+                                </s>
+                              </span>
+                              {%- else -%}
+                              <span style="font-size:{{settings.product_price_font_size}}px">
+                                <s>
+                                {{_product.price | money}}
+                                </s>
+                              </span>
+                              {%- endif -%}
+                              
                             </div>
                           </div>
                         </div>
@@ -68,6 +84,12 @@
                     "id" : "product_price_font_size",
                     "label" : "t:sections.rotating-banners.blocks.slide.settings.product_price_font_size",
 					"default": 18
+            	},
+				{
+                    "type" : "number",
+                    "id" : "product_compare_at_price_font_size",
+                    "label" : "t:sections.rotating-banners.blocks.slide.settings.product_compare_at_price_font_size",
+					"default": 22
             	}
             ]
         }
