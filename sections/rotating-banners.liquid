@@ -28,13 +28,11 @@
                                 </s>
                               </span>
                               <span style="font-size:{{settings.product_compare_at_price_font_size}}px">
-                                {{_product.price | money}}
+                                <strong>{{_product.price | money}}</strong>
                               </span>
                               {%- else -%}
                               <span style="font-size:{{settings.product_price_font_size}}px">
-                                <s>
-                                {{_product.price | money}}
-                                </s>
+                                <strong>{{_product.price | money}}</strong>
                               </span>
                               {%- endif -%}
                               
