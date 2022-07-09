@@ -73,6 +73,10 @@
   transition: all var(--anim-duration);
 }
 
+.rotating-banners__item.active .rotating-banners__item-product-featured-image { {
+  transform: translateY(0px);
+}
+
 .rotating-banners__nav {
   position: absolute;
   right: 3rem;
