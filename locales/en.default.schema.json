@@ -946,6 +946,9 @@
         "anim_duration": {
           "label": "Animation Duration",
           "info": "How long the animation should play for"
+        },
+        "autoplay": {
+          "label": "Autoplay"
         }
       },
       "blocks": {
@@ -954,7 +957,11 @@
           "settings": {
             "image": "Cover Image",
             "product": "Choose Product",
-            "product_background": "Product Background Color"
+            "product_background": "Product Background Color",
+            "product_price_color": "Price Color",
+            "product_price_font_size": "Price Font Size",
+            "product_compare_at_price_color": "Compare At Price Color",
+            "product_compare_at_price_font_size": "Compare At Price Font Size"
           }
         }
       }
