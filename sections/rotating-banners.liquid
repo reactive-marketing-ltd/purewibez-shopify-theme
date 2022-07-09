@@ -13,21 +13,21 @@
         <div class="rotating-banners__container">
             <div class="rotating-banners__nav">
               {% if section.settings.nav==true %}
-                <a href="javascript:void(0)" class="rotating-banners__nav-up-arrow">
+                <a href="javascript:void(0);" class="rotating-banners__nav-up-arrow">
                   {% render 'icon-up-arrow' %}
                 </a>
               {% endif %}
               {% if section.settings.dots==true %}
                 <div class="rotating-banners__nav-steps">
                   {% for block in section.blocks %}
-                    <div id="rotating-banners__nav-step-{{forloop.index}}" class="rotating-banners__nav-step">
+                    <a href="javascript:void(0);" id="rotating-banners__nav-step-{{forloop.index}}" class="rotating-banners__nav-step">
                       {{forloop.index | add:1}}
-                    </div>
+                    </a>
                   {% endfor %}
                 </div>
               {% endif %}
               {% if section.settings.nav==true %}
-                <a href="javascript:void(0)" class="rotating-banners__nav-down-arrow">
+                <a href="javascript:void(0);" class="rotating-banners__nav-down-arrow">
                   {% render 'icon-down-arrow' %}
                 </a>
               {% endif %}
