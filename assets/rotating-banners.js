@@ -3,7 +3,7 @@ class RotatingBanners extends HTMLElement {
 	constructor() {
       super();
       console.log(this.querySelector);
-      this.querySelector("#"+this.id+".rotating-banners__nav-up-arrow").addEventListener('click',this.onNext.bind(this));
+      document.querySelector("#"+this.id+".rotating-banners__nav-up-arrow").addEventListener('click',this.onNext.bind(this));
     }
 
 	onNext(e) {
