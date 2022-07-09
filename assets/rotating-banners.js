@@ -14,17 +14,25 @@ class RotatingBanners extends HTMLElement {
       this.querySelector(".rotating-banners__nav-down-arrow").addEventListener('click',this.onNext.bind(this));
       this.activate(0);
       if(this.autoplay){
-      	this.tid = setInterval(()=>{this.onNext(null);},this.slideDuration);
+      	
       }
     }
-
+    
+    autoplay(){
+      clearTimeout(this.tid);
+      if(this.autoplay){
+      	this.tid = setTimeout(()=>{this.onNext(null);},this.slideDuration);
+      }
+    }
 	onNext(e) {
       this.current=this.current>=this.slides-1?0:this.current+1;
+      this.autoplay();
       this.activate(this.current);
     }
 
     onPrev(e) {
       this.current=this.current<=0?this.slides-1:this.current-1;
+      this.autoplay();
       this.activate(this.current);
     }
 	
