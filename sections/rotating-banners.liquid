@@ -6,9 +6,9 @@
     <rotating-banners class="rotating-banners">
         <div class="rotating-banners__container">
             <div class="rotating-banners__nav">
-              <div class="rotating-banners__nav-up-arrow">
+              <a class="rotating-banners__nav-up-arrow">
                 {% render 'icon-up-arrow' %}
-              </div>
+              </a>
               <div class="rotating-banners__nav-steps">
                 {% for block in section.blocks %}
                   <div class="rotating-banners__nav-step">
@@ -16,9 +16,9 @@
                   </div>
                 {% endfor %}
               </div>
-              <div class="rotating-banners__nav-down-arrow">
+              <a class="rotating-banners__nav-down-arrow">
                 {% render 'icon-down-arrow' %}
-              </div>
+              </a>
             </div>
             {% for block in section.blocks %}
             {% assign _product = block.settings.product %}
