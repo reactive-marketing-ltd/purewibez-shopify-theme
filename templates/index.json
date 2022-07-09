@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
             "product": "dummy-bracelet",
-            "product_title_color": "#ffffff",
+            "product_title_color": "#2b2d42",
             "product_background": "radial-gradient(rgba(255, 251, 240, 1), rgba(252, 195, 179, 1) 99%)",
             "product_price_font_size": 18,
             "product_compare_at_price_font_size": 22,
@@ -32,7 +32,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slide-1-bg.png",
             "product": "dummy-bracelet",
-            "product_title_color": "#ffffff",
+            "product_title_color": "#3e4053",
             "product_background": "radial-gradient(rgba(227, 224, 225, 1), rgba(180, 173, 174, 1) 99%)",
             "product_price_font_size": 18,
             "product_compare_at_price_font_size": 22,
