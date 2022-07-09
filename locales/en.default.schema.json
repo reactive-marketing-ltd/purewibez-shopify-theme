@@ -941,7 +941,7 @@
       "settings": {
         "duration": {
           "label": "Slide Duration",
-          "description": "How long a slide should be visible for"
+          "info": "How long a slide should be visible for"
         }
       },
       "blocks": {
