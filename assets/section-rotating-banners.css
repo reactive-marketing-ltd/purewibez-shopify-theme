@@ -44,12 +44,12 @@
 
 .rotating-banners__item-media {
   width:50%;
+  flex:1;
 }
 
 .rotating-banners__item-content {
   flex:1;
   height:100%;
-  width:50%;
   display:flex;
 }
 .rotating-banners__item-content > div{
@@ -70,6 +70,8 @@
   justify-content: center;
   padding: 5rem;
   padding-right: 10rem;
+  flex:1;
+  width:50%;
 }
 
 .rotating-banners__item-product-featured-image {
