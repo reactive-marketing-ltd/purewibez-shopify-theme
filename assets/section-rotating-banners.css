@@ -50,6 +50,7 @@
   align-items: flex-end;
   justify-content: center;
   padding: 5rem;
+  padding-right:8rem;
 }
 
 .rotating-banners__item-product-featured-image {
