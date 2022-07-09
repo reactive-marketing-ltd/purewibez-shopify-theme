@@ -942,6 +942,10 @@
         "duration": {
           "label": "Slide Duration",
           "info": "How long a slide should be visible for"
+        },
+        "anim_duration": {
+          "label": "Animation Duration",
+          "info": "How long the animation should play for"
         }
       },
       "blocks": {
