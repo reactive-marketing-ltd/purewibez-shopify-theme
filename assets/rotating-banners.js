@@ -10,13 +10,13 @@ class RotatingBanners extends HTMLElement {
     }
 
 	onNext(e) {
-      this.current+=1;
-      console.log(this.current, this.slides);
+      this.current=this.current>=this.slides-1?this.current:this.current+1;
+      console.log(this.current);
     }
 
     onPrev(e) {
       this.current-=1;
-      console.log(this.current, this.slides);
+      console.log(this.current);
     }
 
 }
