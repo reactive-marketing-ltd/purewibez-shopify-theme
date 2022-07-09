@@ -8,6 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
             "product": "",
+            "product_title_color": "",
             "product_background": "linear-gradient(133deg, rgba(250, 220, 54, 1) 11%, rgba(254, 98, 146, 1) 49%, rgba(250, 220, 54, 1) 87%)"
           }
         },
@@ -16,6 +17,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/green-and-white-marbled-coloring.jpg",
             "product": "",
+            "product_title_color": "",
             "product_background": ""
           }
         },
@@ -24,6 +26,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slide-1-bg.png",
             "product": "dummy-bracelet",
+            "product_title_color": "#fff",
             "product_background": "radial-gradient(rgba(227, 224, 225, 1), rgba(180, 173, 174, 1) 99%)"
           }
         }
