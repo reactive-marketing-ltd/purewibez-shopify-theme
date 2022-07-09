@@ -22,7 +22,7 @@
                             </div>
                             <div class="rotating-banners__item-product-price">
                               {% if _product.compare_at_price != blank %}
-                              <span style="font-size:{{settings.product_price_font_size}}px">
+                              <span style="padding-right:1rem; font-size:{{settings.product_price_font_size}}px">
                                 <s>
                                 {{_product.compare_at_price | money}}
                                 </s>
