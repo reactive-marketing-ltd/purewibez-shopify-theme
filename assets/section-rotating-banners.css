@@ -141,7 +141,8 @@
   }
   
   .rotating-banners__item-product-featured-image img {
-    width:100%;
+    width:80%;
+    height:auto;
   }
   
   .rotating-banners__item-content {
