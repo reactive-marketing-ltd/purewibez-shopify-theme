@@ -55,7 +55,7 @@
         "duration": 10000,
         "anim_duration": 800,
         "autoplay": true,
-        "nav": false,
+        "nav": true,
         "dots": true
       }
     },
