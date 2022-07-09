@@ -42,6 +42,10 @@
   transform: translateX(0px);
 }
 
+.rotating-banners__item-media {
+  flex:1;
+}
+
 .rotating-banners__item-content {
   flex:1;
   height:100%;
