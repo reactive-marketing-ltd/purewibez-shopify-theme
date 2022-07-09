@@ -132,9 +132,10 @@
   }
   
   .rotating-banners__item-media {
-    min-height: 200px
+    max-height: 200px
   }
   
   .rotating-banners__container {
+    overflow:auto;
   }
 }
