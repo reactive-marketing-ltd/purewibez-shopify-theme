@@ -7,7 +7,7 @@
             {% for block in section.blocks %}
                 <div class="rotating-banners__item" {{ block.shopify_attributes }}>
                     <div  class="rotating-banners__item-content">
-                        <div style="background: url({{block.settings.image | image_url}})" class="rotating-banners__item-media">
+                        <div style="background-image: url({{block.settings.image | image_url}})" class="rotating-banners__item-media">
                             Test
                         </div>
                       <div class="rotating-banners__item-">
