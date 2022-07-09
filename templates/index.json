@@ -65,7 +65,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>CHOOSE FROM OUR COLLECTIONS<\/p>",
+            "heading": "<p><strong>CHOOSE FROM OUR COLLECTIONS<\/strong><\/p>",
             "heading_size": "hxl"
           }
         },
