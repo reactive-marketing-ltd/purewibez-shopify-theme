@@ -129,6 +129,10 @@
   opacity:0.85;
 }
 
+.rotating-banners__item-product-featured-image img {
+  height: 100%;
+}
+
 @media (max-width: 820px) {
   .rotating-banners__item-title h1 {
     font-size:42px;
