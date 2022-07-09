@@ -10,7 +10,7 @@ class RotatingBanners extends HTMLElement {
       this.activate(0);
       setInterval(()=>{
                   this.onNext(null);
-                  },1000);
+                  },3000);
     }
 
 	onNext(e) {
