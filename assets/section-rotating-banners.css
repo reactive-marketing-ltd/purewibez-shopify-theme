@@ -123,7 +123,7 @@
   }
   
   .rotating-banners__item-product-featured-image img {
-    width:300px;
+    width:200px;
   }
   .rotating-banners__item-content {
     flex-direction: column;
