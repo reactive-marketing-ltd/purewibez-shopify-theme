@@ -17,6 +17,7 @@
 .rotating-banners__item-content {
   flex:1;
   height:100%;
+  display:flex;
 }
 .rotating-banners__item-content h2{
   margin:0 !important;
