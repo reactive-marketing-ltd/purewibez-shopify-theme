@@ -7,21 +7,24 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-            "product": ""
+            "product": "",
+            "product_background": "linear-gradient(133deg, rgba(250, 220, 54, 1) 11%, rgba(254, 98, 146, 1) 49%, rgba(250, 220, 54, 1) 87%)"
           }
         },
         "f76c9058-9cb9-4757-89f6-6b2113a6ba9d": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/green-and-white-marbled-coloring.jpg",
-            "product": ""
+            "product": "",
+            "product_background": ""
           }
         },
         "8575e68a-4542-44e8-9825-f40238697e06": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-            "product": ""
+            "product": "",
+            "product_background": ""
           }
         }
       },
@@ -31,7 +34,6 @@
         "8575e68a-4542-44e8-9825-f40238697e06"
       ],
       "settings": {
-        "product_background": "radial-gradient(rgba(255, 154, 98, 1), rgba(255, 204, 75, 1) 100%)"
       }
     },
     "rich_text": {
