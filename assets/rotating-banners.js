@@ -15,7 +15,7 @@ class RotatingBanners extends HTMLElement {
     }
 
     onPrev(e) {
-      this.current-=1;
+      this.current=this.current<=0?this.current:this.current-1;
       console.log(this.current);
     }
 
