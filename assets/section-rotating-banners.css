@@ -68,6 +68,8 @@
 
 .rotating-banners__item-product-featured-image {
   text-align:center;
+  transform: translateY(1000px);
+  transition: all var(--anim-duration);
 }
 
 .rotating-banners__nav {
