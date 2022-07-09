@@ -103,7 +103,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
+              "store_location": "399 Myrtle Ave, Toronto, ON M5S 2L2",
               "text": "Welcome to our store",
+              "phone": "+1-9898989898",
               "color_scheme": "background-1",
               "link": ""
             }
@@ -119,12 +121,16 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
+          "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
-          "margin_bottom": 0
+          "margin_bottom": 0,
+          "padding_top": 0,
+          "padding_bottom": 0
         }
       },
       "footer": {
@@ -183,7 +189,10 @@
           "color_scheme": "background-1"
         }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
