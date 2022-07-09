@@ -11,13 +11,18 @@ class RotatingBanners extends HTMLElement {
 
 	onNext(e) {
       this.current=this.current>=this.slides-1?this.current:this.current+1;
-      console.log(this.current);
+      this.activate(this.current);
     }
 
     onPrev(e) {
       this.current=this.current<=0?this.current:this.current-1;
-      console.log(this.current);
+      this.activate(this.current);
     }
+	
+	activate(index) {
+      this.querySelectorAll(".rotating-banners__item").removeClass("active");
+      this.querySelector("#rotating-banners__item#"+(index+1)).addClass("active");
+	}
 
 }
 
