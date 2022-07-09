@@ -26,8 +26,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slide-1-bg.png",
             "product": "dummy-bracelet",
-            "product_title_color": "#fff",
-            "product_background": "radial-gradient(rgba(227, 224, 225, 1), rgba(180, 173, 174, 1) 99%)"
+            "product_title_color": "#ffffff",
+            "product_background": "radial-gradient(rgba(227, 224, 225, 1), rgba(180, 173, 174, 1) 99%)",
+            "product_price_font_size": 18
           }
         }
       },
