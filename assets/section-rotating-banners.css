@@ -15,9 +15,9 @@
 }
 .rotating-banners__item-title {
   position: absolute;
-  left:3rem;
-  top:3rem;
-  font-weight:bold;
+  left: 3rem;
+  top: 3rem;
+  font-weight: bold;
 }
 
 .rotating-banners__item-content {
