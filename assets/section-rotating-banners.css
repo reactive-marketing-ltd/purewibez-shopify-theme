@@ -25,7 +25,7 @@
 }
 
 .rotating-banners__item-content > div.rotating-banners__item-media{
-  background-position: "center";
-  background-size:"cover";
+  background-position: center;
+  background-size:cover;
   background-repeat:no-repeat;
 }
