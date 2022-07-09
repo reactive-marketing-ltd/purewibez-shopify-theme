@@ -69,8 +69,10 @@
 
 .rotating-banners__item-product-featured-image {
   text-align:center;
-  transform: translateY(-1000px);
-  transition: all var(--anim-duration);
+  animation-name: vert-anim;
+  animation-duration: var(--anim-duration);
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
 }
 
 .rotating-banners__item.active .rotating-banners__item-product-featured-image {
