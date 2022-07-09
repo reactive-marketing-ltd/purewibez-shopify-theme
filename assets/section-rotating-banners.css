@@ -70,7 +70,7 @@
 .rotating-banners__item-product-featured-image {
   text-align:center;
   transform: translateY(1000px);
-  transition: all var(--anim-duration)ms;
+  transition: all var(--anim-duration);
 }
 
 .rotating-banners__item.active .rotating-banners__item-product-featured-image { 
