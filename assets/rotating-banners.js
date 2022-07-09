@@ -3,6 +3,7 @@ class RotatingBanners extends HTMLElement {
 	slides = 0;
 	slidDuration = 7000;
 	autoplay = false;
+	tid=-1;
 	constructor() {
       super();
       console.log(this);
@@ -13,10 +14,8 @@ class RotatingBanners extends HTMLElement {
       this.querySelector(".rotating-banners__nav-down-arrow").addEventListener('click',this.onNext.bind(this));
       this.activate(0);
       if(this.autoplay){
-      setInterval(()=>{
-                  this.onNext(null);
-    	},this.slideDuration);
-    	}
+      	this.tid = setInterval(()=>{this.onNext(null);},this.slideDuration);
+      }
     }
 
 	onNext(e) {
