@@ -17,13 +17,15 @@
                   {% render 'icon-up-arrow' %}
                 </a>
               {% endif %}
-              <div class="rotating-banners__nav-steps">
-                {% for block in section.blocks %}
-                  <div id="rotating-banners__nav-step-{{forloop.index}}" class="rotating-banners__nav-step">
-                    {{forloop.index | add:1}}
-                  </div>
-                {% endfor %}
-              </div>
+              {% if section.settings.dots==true %}
+                <div class="rotating-banners__nav-steps">
+                  {% for block in section.blocks %}
+                    <div id="rotating-banners__nav-step-{{forloop.index}}" class="rotating-banners__nav-step">
+                      {{forloop.index | add:1}}
+                    </div>
+                  {% endfor %}
+                </div>
+              {% endif %}
               {% if section.settings.nav==true %}
                 <a href="javascript:void(0)" class="rotating-banners__nav-down-arrow">
                   {% render 'icon-down-arrow' %}
