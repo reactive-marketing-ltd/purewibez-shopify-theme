@@ -24,11 +24,11 @@
                               {% if _product.compare_at_price != blank %}
                               <span style="font-size:{{settings.product_price_font_size}}px">
                                 <s>
-                                {{_product.price | money}}
+                                {{_product.compare_at_price | money}}
                                 </s>
                               </span>
                               <span style="font-size:{{settings.product_compare_at_price_font_size}}px">
-                                {{_product.compare_at_price | money}}
+                                {{_product.price | money}}
                               </span>
                               {%- else -%}
                               <span style="font-size:{{settings.product_price_font_size}}px">
