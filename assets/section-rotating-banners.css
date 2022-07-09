@@ -23,6 +23,7 @@
 .rotating-banners__item-title h1 {
   font-weight: bold;
   font-size:72px;
+  margin:0 !important;
 }
 
 .rotating-banners__item-content {
