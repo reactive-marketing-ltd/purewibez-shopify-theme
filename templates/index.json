@@ -11,7 +11,9 @@
             "product_title_color": "#2b2d42",
             "product_background": "radial-gradient(rgba(255, 249, 234, 1), rgba(255, 251, 231, 1) 99%)",
             "product_price_font_size": 18,
+            "product_price_color": "",
             "product_compare_at_price_font_size": 22,
+            "product_compare_at_price_color": "",
             "product_description_color": ""
           }
         },
@@ -23,7 +25,9 @@
             "product_title_color": "#ffffff",
             "product_background": "radial-gradient(rgba(56, 186, 94, 1), rgba(14, 92, 61, 1) 100%)",
             "product_price_font_size": 18,
+            "product_price_color": "",
             "product_compare_at_price_font_size": 22,
+            "product_compare_at_price_color": "",
             "product_description_color": "#91e5a9"
           }
         },
@@ -35,7 +39,9 @@
             "product_title_color": "#3e4053",
             "product_background": "radial-gradient(rgba(227, 224, 225, 1), rgba(180, 173, 174, 1) 99%)",
             "product_price_font_size": 18,
+            "product_price_color": "",
             "product_compare_at_price_font_size": 22,
+            "product_compare_at_price_color": "",
             "product_description_color": "#888484"
           }
         }
@@ -46,7 +52,11 @@
         "8575e68a-4542-44e8-9825-f40238697e06"
       ],
       "settings": {
-        "duration": 10000
+        "duration": 10000,
+        "anim_duration": 800,
+        "autoplay": true,
+        "nav": false,
+        "dots": true
       }
     },
     "rich_text": {
