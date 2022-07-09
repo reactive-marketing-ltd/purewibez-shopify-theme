@@ -51,3 +51,7 @@
   justify-content: center;
   padding: 5rem;
 }
+
+.rotating-banners__item-product-featured-image {
+  text-align:center;
+}
