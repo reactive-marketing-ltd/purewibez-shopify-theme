@@ -132,7 +132,7 @@
   }
   
   .rotating-banners__item-media {
-    max-height: 200px
+    display:none;
   }
   
   .rotating-banners__container {
