@@ -7,11 +7,13 @@
   {% for block in blocks %}
   {% assign collection = block.settings.collection %}
   <div class="feeatured-collections__collection-wrapper">
-    <div class="feeatured-collections__collection-container page-width">
+    <div 
+         class="feeatured-collections__collection-container page-width" 
+         style="{% if block.settings.info_first %}flex-drection: row-reverse;{% endif %}">
       <div class="feeatured-collections__collection-media-wrapper">
         {{ collection.featured_image | image_url: width: 800 | image_tag }}
       </div>
-      <div class="feeatured-collections__collection-info-wrapper">
+      <div class="feeatured-collections__collection-info-wrapper" style="{{ block.settings.info_box_ }}">
         {{ collection.title }}
       </div>
     </div>
@@ -36,6 +38,11 @@
                     "type": "checkbox",
                     "id": "info_first",
                     "label": "t:sections.featured-collections.blocks.collection.settings.info_first.label"
+				},
+				{
+                    "type": "color_background",
+                    "id": "info_box_bg",
+                    "label": "t:sections.featured-collections.blocks.collection.settings.info_box_bg.label"
 				}
 			]
 		}
