@@ -942,6 +942,11 @@
         "collections": {
           "label": "Choose Collections"
         }
+      },
+      "blocks": {
+        "info_first": {
+          "label": "Show information first."
+        }
       }
     },
     "rotating-banners": {
