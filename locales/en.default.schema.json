@@ -944,8 +944,11 @@
         }
       },
       "blocks": {
-        "info_first": {
-          "label": "Show information first."
+        "collection": {
+          "name": "Collection",
+          "info_first": {
+            "label": "Show information first."
+          }
         }
       }
     },
