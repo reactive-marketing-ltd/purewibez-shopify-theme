@@ -66,7 +66,8 @@
           "type": "heading",
           "settings": {
             "heading": "<p><strong>CHOOSE FROM OUR COLLECTIONS<\/strong><\/p>",
-            "heading_size": "hxl"
+            "heading_size": "hxl",
+            "letter_spacing": 14
           }
         },
         "text": {
