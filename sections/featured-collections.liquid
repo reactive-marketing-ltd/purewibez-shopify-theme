@@ -1,6 +1,7 @@
 {{ 'section-fectured-collections.css' | asset_url | stylesheet_tag }}
 
 
+
 {% schema %}
   {
     "name": "t:sections.featured-collections.name",
@@ -10,6 +11,19 @@
 			"id": "collections",
 			"label": "t:sections.featured-collections.settings.collections.label",
 			"limit": 8
+		}
+	],
+	"blocks": [
+		{
+			"type": "collection",
+			"name": "t:sections.featured-collections.blocks.collection.name",
+			"settings": [
+                {
+                    "type": "checkbox",
+                    "id": "info_first",
+                    "label": "t:sections.rotating-banners.blocks.collection.settings.info_first.label"
+				}
+			]
 		}
 	]
   }
