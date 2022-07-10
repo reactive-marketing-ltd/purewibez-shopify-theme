@@ -946,8 +946,10 @@
       "blocks": {
         "collection": {
           "name": "Collection",
-          "info_first": {
-            "label": "Show information first."
+          "settings": {
+            "info_first": {
+              "label": "Show information first."
+            }
           }
         }
       }
