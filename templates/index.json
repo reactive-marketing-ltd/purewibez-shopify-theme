@@ -92,6 +92,9 @@
     "featured_collections": {
       "type": "featured-collections",
       "settings": {
+        "collections": [
+          "108-malas"
+        ]
       }
     },
     "collage": {
