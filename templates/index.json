@@ -100,10 +100,19 @@
             "info_first": false,
             "info_box_bg": "radial-gradient(rgba(216, 232, 250, 1) 2%, rgba(182, 200, 220, 1) 100%)"
           }
+        },
+        "e8743224-7d07-4902-8916-e60d403906ad": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage",
+            "info_first": true,
+            "info_box_bg": "radial-gradient(rgba(120, 120, 120, 1), rgba(58, 62, 62, 1) 100%)"
+          }
         }
       },
       "block_order": [
-        "3e93a186-ae01-4b17-a914-fe4b2e77cb90"
+        "3e93a186-ae01-4b17-a914-fe4b2e77cb90",
+        "e8743224-7d07-4902-8916-e60d403906ad"
       ],
       "settings": {
       }
