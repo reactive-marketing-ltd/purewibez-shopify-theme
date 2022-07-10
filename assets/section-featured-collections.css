@@ -5,6 +5,7 @@
 .feeatured-collections__collection-media-wrapper{
   background-size: cover;
   background-position: center;
+  width:70%;
 }
 
 .feeatured-collections__collection-container{
