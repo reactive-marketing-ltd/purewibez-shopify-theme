@@ -26,3 +26,6 @@
 .feeatured-collections__collection-info-container{
   padding: 4rem;
 }
+.feeatured-collections__collection-info-container p{
+  text-align: justify;
+}
