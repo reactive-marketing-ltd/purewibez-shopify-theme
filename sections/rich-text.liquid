@@ -25,7 +25,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
-              <h2 class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              <h2 class="rich-text__heading rte {{ block.settings.heading_size }}" style="letter-spacing: {{ block.settings.letter_spacing }}px;" {{ block.shopify_attributes }}>
                 {{ block.settings.heading | replace: 'p>', 'span>' }}
               </h2>
             {%- when 'caption' -%}
@@ -198,7 +198,8 @@
           "type": "number",
           "id": "letter_spacing",
           "label": "t:sections.rich-text.blocks.heading.settings.letter_spacing.label",
-		  "default": 0
+		  "default": 0,
+		  "info": "t:sections.rich-text.blocks.heading.settings.letter_spacing.info"
         }
       ]
     },
