@@ -13,7 +13,7 @@
       <div class="feeatured-collections__collection-media-wrapper">
         {{ collection.featured_image | image_url: width: 800 | image_tag }}
       </div>
-      <div class="feeatured-collections__collection-info-wrapper" style="{{ block.settings.info_box_ }}">
+      <div class="feeatured-collections__collection-info-wrapper" style="background:{{ block.settings.info_box_bg }}">
         {{ collection.title }}
       </div>
     </div>
