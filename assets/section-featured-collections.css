@@ -1,3 +1,6 @@
+.featured-collections__wrapper{
+  padding: 5rem 0rem;
+}
 .feeatured-collections__collection-container{
   display: flex;
   align-items: center;
