@@ -2,6 +2,10 @@
   padding: 5rem 0rem;
 }
 
+.feeatured-collections__collection-wrapper{
+  min-height: 300px;
+}
+
 .feeatured-collections__collection-media-wrapper{
   background-size: cover;
   background-position: center;
