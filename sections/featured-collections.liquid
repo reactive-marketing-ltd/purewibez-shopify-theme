@@ -9,7 +9,7 @@
   <div class="feeatured-collections__collection-wrapper">
     <div class="feeatured-collections__collection-container">
       <div class="feeatured-collections__collection-media-wrapper">
-        {{ collection.featured_image | image_url | image_tag }}
+        {{ collection.featured_image | image_url: width: 600 | image_tag }}
       </div>
       <div class="feeatured-collections__collection-info-wrapper">
         {{ collection.title }}
