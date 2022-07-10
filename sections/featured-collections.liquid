@@ -5,19 +5,16 @@
 {% schema %}
   {
     "name": "t:sections.featured-collections.name",
-    "settings": [
-		{
-			"type": "collection_list",
-			"id": "collections",
-			"label": "t:sections.featured-collections.settings.collections.label",
-			"limit": 8
-		}
-	],
 	"blocks": [
 		{
 			"type": "collection",
 			"name": "t:sections.featured-collections.blocks.collection.name",
 			"settings": [
+        		{
+                    "type": "collection",
+                    "id": "collection",
+                    "label": "t:sections.featured-collections.blocks.collection.settings.collection.label"
+                },
                 {
                     "type": "checkbox",
                     "id": "info_first",
