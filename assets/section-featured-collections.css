@@ -11,5 +11,6 @@
 .feeatured-collections__collection-container{
   display: flex;
   align-items: stretch;
-    min-height: 300px;
+  min-height: 300px;
+  width: 100%;
 }
