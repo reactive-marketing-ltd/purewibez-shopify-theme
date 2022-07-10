@@ -12,7 +12,7 @@
          style="{% if block.settings.info_first %}flex-drection: row-reverse;{% endif %}">
       <div class="feeatured-collections__collection-media-wrapper" style="background-image:url({{ collection.featured_image | image_url: width: 800 }})">
       </div>
-      <div style="width:20px">&nbsp;</div>
+      <div style="min-width:20px; min-height:20px;">&nbsp;</div>
       <div class="feeatured-collections__collection-info-wrapper" style="background:{{ block.settings.info_box_bg }}">
         {{ collection.title }}
       </div>
