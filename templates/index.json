@@ -106,7 +106,7 @@
           "settings": {
             "collection": "frontpage",
             "info_first": true,
-            "info_box_bg": "radial-gradient(rgba(120, 120, 120, 1), rgba(58, 62, 62, 1) 100%)"
+            "info_box_bg": "radial-gradient(rgba(233, 229, 229, 1), rgba(190, 190, 190, 1) 100%)"
           }
         }
       },
