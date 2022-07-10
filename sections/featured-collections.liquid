@@ -1,7 +1,17 @@
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Featured Collections",
+    "settings": [
+		{
+			"type": "collection_list",
+			"id": "collections",
+			"label": "t:sections.featured-collections.settings.collections.label",
+			"limit": 8
+		}
+	]
   }
 {% endschema %}
 
