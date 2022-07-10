@@ -1,7 +1,23 @@
 {{ 'section-fectured-collections.css' | asset_url | stylesheet_tag }}
 
-<div>
-  
+{% assign settings = section.settings %}
+{% assign blocks = section.blocks %}
+
+<div class="featured-collections__wrapper">
+  {% for block in blocks %}
+  {% assign collection = block.settings.collection %}
+  <div class="feeatured-collections__collection-wrapper">
+    <div class="feeatured-collections__collection-container">
+      <div class="feeatured-collections__collection-media-wrapper">
+        {{ collection.featured_image | image_url | image_tag }}
+      </div>
+      <div class="feeatured-collections__collection-info-wrapper">
+        {{ collection.title }}
+      </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
 </div>
 
 {% schema %}
