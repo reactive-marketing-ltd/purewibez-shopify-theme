@@ -936,6 +936,14 @@
         }
       }
     },
+    "featured-collections": {
+      "name": "Featured Collections",
+      "settings": {
+        "collections": {
+          "label": "Choose Collections"
+        }
+      }
+    },
     "rotating-banners": {
       "name": "Rotating Banners",
       "settings": {
