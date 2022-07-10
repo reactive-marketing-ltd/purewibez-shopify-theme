@@ -118,6 +118,37 @@
       "settings": {
       }
     },
+    "1657463710e543bd67": {
+      "type": "rich-text",
+      "blocks": {
+        "1657463710b1a198b0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>CHOOSE FROM OUR BEST SELLERS<\/strong><\/p>",
+            "heading_size": "hxl",
+            "letter_spacing": 14
+          }
+        },
+        "1657463710b1a198b0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><span style=\"text-decoration:underline\">BROWSE OUR CATALOG<\/span><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1657463710b1a198b0-0",
+        "1657463710b1a198b0-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -227,6 +258,7 @@
     "rotating_banners",
     "rich_text",
     "featured_collections",
+    "1657463710e543bd67",
     "collage",
     "video",
     "multicolumn"
