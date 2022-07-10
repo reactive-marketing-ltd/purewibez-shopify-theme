@@ -152,30 +152,31 @@
     "collage": {
       "type": "collage",
       "blocks": {
+        "cb010ef0-e41b-47cd-8160-07682ae4ccce": {
+          "type": "product",
+          "settings": {
+            "product": "dummy-bracelet",
+            "second_image": false
+          }
+        },
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "frontpage"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "dummy-bracelet",
             "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
           }
         }
       },
       "block_order": [
+        "cb010ef0-e41b-47cd-8160-07682ae4ccce",
         "collection-0",
-        "product",
-        "collection-1"
+        "product"
       ],
       "settings": {
         "heading": "Multimedia collage",
