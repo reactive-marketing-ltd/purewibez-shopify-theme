@@ -10,8 +10,7 @@
     <div 
          class="feeatured-collections__collection-container page-width" 
          style="{% if block.settings.info_first %}flex-drection: row-reverse;{% endif %}">
-      <div class="feeatured-collections__collection-media-wrapper">
-        {{ collection.featured_image | image_url: width: 800 | image_tag }}
+      <div class="feeatured-collections__collection-media-wrapper" style="background:url({{ collection.featured_image | image_url: width: 800 }})">
       </div>
       <div class="feeatured-collections__collection-info-wrapper" style="background:{{ block.settings.info_box_bg }}">
         {{ collection.title }}
