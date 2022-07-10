@@ -945,8 +945,8 @@
             "info_first": {
               "label": "Show information first."
             },
-            "collections": {
-              "label": "Choose Collections"
+            "collection": {
+              "label": "Choose Collection"
             }
           }
         }
