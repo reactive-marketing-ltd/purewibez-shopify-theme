@@ -938,17 +938,15 @@
     },
     "featured-collections": {
       "name": "Featured Collections",
-      "settings": {
-        "collections": {
-          "label": "Choose Collections"
-        }
-      },
       "blocks": {
         "collection": {
           "name": "Collection",
           "settings": {
             "info_first": {
               "label": "Show information first."
+            },
+            "collections": {
+              "label": "Choose Collections"
             }
           }
         }
