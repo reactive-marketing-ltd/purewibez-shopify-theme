@@ -947,6 +947,9 @@
             },
             "collection": {
               "label": "Choose Collection"
+            },
+            "info_box_bg": {
+              "label": "Information box background color"
             }
           }
         }
