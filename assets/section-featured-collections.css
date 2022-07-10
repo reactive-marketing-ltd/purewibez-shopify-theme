@@ -23,3 +23,6 @@
 .feeatured-collections__collection-info-wrapper{
   flex: 1;
 }
+.feeatured-collections__collection-info-container{
+  padding: 4rem;
+}
