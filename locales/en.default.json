@@ -292,6 +292,13 @@
     },
     "page": {
       "title": "Page title"
+    },
+    "feature-collections": {
+      "blocks": {
+        "collection": {
+          "explore": "Explore Collection"
+        }
+      }
     }
   },
   "localization": {
