@@ -14,3 +14,7 @@
   min-height: 300px;
   width: 100%;
 }
+
+.feeatured-collections__collection-info-box-wrapper{
+  flex: 1;
+}
