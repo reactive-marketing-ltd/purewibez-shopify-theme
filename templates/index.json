@@ -91,10 +91,19 @@
     },
     "featured_collections": {
       "type": "featured-collections",
+      "blocks": {
+        "3e93a186-ae01-4b17-a914-fe4b2e77cb90": {
+          "type": "collection",
+          "settings": {
+            "collection": "108-malas",
+            "info_first": false
+          }
+        }
+      },
+      "block_order": [
+        "3e93a186-ae01-4b17-a914-fe4b2e77cb90"
+      ],
       "settings": {
-        "collections": [
-          "108-malas"
-        ]
       }
     },
     "collage": {
