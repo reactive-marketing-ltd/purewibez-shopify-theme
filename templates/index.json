@@ -97,7 +97,8 @@
           "type": "collection",
           "settings": {
             "collection": "108-malas",
-            "info_first": false
+            "info_first": false,
+            "info_box_bg": "radial-gradient(rgba(216, 232, 250, 1) 2%, rgba(182, 200, 220, 1) 100%)"
           }
         }
       },
