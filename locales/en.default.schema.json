@@ -2319,6 +2319,10 @@
           "settings": {
             "heading": {
               "label": "Heading"
+            },
+            "letter_spacing": {
+              "label": "Letter Spacing",
+              "info": "in pixels (eg. 12px)"
             }
           }
         },
