@@ -293,7 +293,7 @@
     "page": {
       "title": "Page title"
     },
-    "feature-collections": {
+    "featured-collections": {
       "blocks": {
         "collection": {
           "explore": "Explore Collection"
