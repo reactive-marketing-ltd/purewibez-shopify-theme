@@ -10,16 +10,16 @@
             "text_style": "uppercase"
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
         "1b1492b3-c705-40e7-802b-7d772b9f8d10": {
           "type": "shopify:\/\/apps\/rx-reviews\/blocks\/star-rating\/6acb0f23-ce7a-45aa-85e2-d3b96f14a22c",
           "settings": {
             "color": "#000000",
             "size": 32
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
           }
         },
         "caption": {
@@ -101,8 +101,8 @@
       },
       "block_order": [
         "vendor",
-        "1b1492b3-c705-40e7-802b-7d772b9f8d10",
         "title",
+        "1b1492b3-c705-40e7-802b-7d772b9f8d10",
         "caption",
         "price",
         "variant_picker",
