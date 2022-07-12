@@ -6,9 +6,28 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1657668838ecc2ed54": {
+      "type": "apps",
+      "blocks": {
+        "dd8991a8-6312-486b-bcb1-c007c2ab29d1": {
+          "type": "shopify:\/\/apps\/rx-reviews\/blocks\/star-rating\/6acb0f23-ce7a-45aa-85e2-d3b96f14a22c",
+          "settings": {
+            "color": "#000000",
+            "size": 32
+          }
+        }
+      },
+      "block_order": [
+        "dd8991a8-6312-486b-bcb1-c007c2ab29d1"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1657668838ecc2ed54"
   ]
 }
